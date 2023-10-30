@@ -1,4 +1,4 @@
-# energytracker
+# EnviroTracker
 Inspiration: Given the recent rise in climate change, I wanted some sort of tracker to really show people just how much they are contributing to the environment; to raise awareness, and to take the proper steps to mitigate the negative effects for the future.
 
 What it does: It basically random values uniformly distributed between 5 and 25 kWh for electricity consumption, and 10 and 25 cubic feet for gas. It emulates real-life values. Then these values are put through the pandas DataFrame in separate variables and then used to get the sum and average for each of them (accessed the values from the data dictionary). The values are taken and put through Matplotlib to generate a graph showing the consumption of each. The averages go through two conditional statements and give the user a message: "Your electricity consumption is high. Consider energy-efficient products like solar chargers." or "Your gas consumption is high. Check for any gas leaks to optimize usage. Explore gas-saving products" if any of them go over a certain threshold (I just chose 15 and 20 respectively).
